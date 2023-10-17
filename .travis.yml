@@ -1,6 +1,8 @@
 language: php
+
 php:
-  - '7.4'
+  - 7.4
+  - 8.0
 
 script:
-  - phpunit
+  - phpunit tests  # Aquí se especifica el directorio de pruebas

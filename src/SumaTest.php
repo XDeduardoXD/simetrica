@@ -6,8 +6,8 @@ function testSumar() {
     $suma = new Suma();
     $result = $suma->sumar(1, 2);
     if ($result === 3) {
-        return "Test sumar: PASSED";
+        return "Test sumar: PASSED<br>";
     } else {
-        return "Test sumar: FAILED";
+        return "Test sumar: FAILED<br>";
     }
 }
