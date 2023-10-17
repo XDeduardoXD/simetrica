@@ -1,0 +1,9 @@
+language: php
+php:
+  - '8.0.28'
+
+install:
+  - composer install
+
+script:
+  - phpunit
