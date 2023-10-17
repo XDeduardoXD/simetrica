@@ -1,6 +1,6 @@
 language: php
 php:
-  - '8.0.28'
+  - '8.0'
 
 script:
   - phpunit
